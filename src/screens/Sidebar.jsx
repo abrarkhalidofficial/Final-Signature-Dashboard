@@ -8,7 +8,7 @@ function Sidebar() {
   return (
     <div className="side_bar__wrapper">
       <SidebarAction defaultChecked={true} title="Dashboard" to="/dashboard/" />
-      <SidebarAction title="Building Information" to="/" />
+      <SidebarAction title="Building Information" to="/dashboard/information/" />
       <SidebarAction title="Contact Form" onClick="/" />
       <SidebarAction title="Call Request" onClick="/" />
       <SidebarAction title="Upcomming Projects" onClick="/" />
